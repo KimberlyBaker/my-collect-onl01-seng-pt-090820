@@ -11,8 +11,6 @@ def my_collect(languages)
   name_collection
 end
 
-my_collect(languages) {|i| i.split(" ").first}
-
 def my_collect(students)
   i = 0
   name_collection = []
@@ -22,5 +20,3 @@ def my_collect(students)
   end
   name_collection
 end
-
-my_collect(students) {|i| i.split(" ").first}
