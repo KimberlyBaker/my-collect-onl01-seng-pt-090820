@@ -1,4 +1,5 @@
-
+languages = ['ruby', 'javascript', 'python', 'objective-c']
+  let(:students) { ['Tim Jones', 'Tom Smith', 'Sophie Johnson', 'Antoin Miller']
 
 def my_collect(languages)
   i = 0
