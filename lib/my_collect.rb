@@ -1,4 +1,4 @@
-def my_collect(array)
+def my_collect(languages)
   i = 0
   collection = []
   while i < array.length
