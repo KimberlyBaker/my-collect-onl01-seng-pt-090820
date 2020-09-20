@@ -1,22 +1,9 @@
-languages = ['ruby', 'javascript', 'python', 'objective-c']
-students = ['Tim Jones', 'Tom Smith', 'Sophie Johnson', 'Antoin Miller']
-
-def my_collect(languages)
+def my_collect(collection)
   i = 0
-  lang_collection = []
-  while i < languages.length
-    lang_collection << yield(array[i])
+  new_collection = []
+  while i < collection.length
+    new_collection << yield(collection[i])
     i += 1
   end
-  lang_collection
-end
-
-def my_collect(students)
-  i = 0
-  name_collection = []
-  while i < students.length
-    name_collection << yield(array[i])
-    i += 1
-  end
-  name_collection
+  new_collection
 end
